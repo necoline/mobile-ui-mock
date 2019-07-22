@@ -1,0 +1,32 @@
+[
+  {
+    "_id": 1,
+    "jobTitle": "Web Designer",
+    "companyName": "Yda Inc.",
+    "companyLogo": "https://drive.google.com/file/d/1eE9RxdutejBZIrrD0rLnNSWDY6BJhnHp/view?usp=sharing",
+    "payRate": "$1500",
+    "payUnit": "month",
+    "deadline": "2018-11-01-09:00:000",
+    "location": "Mountain View",
+    "jobDescription": "We are a new Fast Casual restaraunt here in Dhaka here on the corner of Gulshan ave. We have a few more positions left for energetic, enthusiastic, and hard workers.",
+    "minQualifications": [
+      {
+        "_id": 2,
+        "description": "3 years of relevant work experience required"
+      },
+      {
+        "_id": 3,
+        "description": "High School or higher level of education"
+      },
+      {
+        "_id": 4,
+        "description": "Speak English"
+      },
+      {
+        "_id": 5,
+        "description": "Professional references needed"
+      }
+    ],
+    "responsibilities": "Manage all aspects of web design, developing a strategic concept and communicating it to the team."
+  }
+]
