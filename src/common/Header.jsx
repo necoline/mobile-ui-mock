@@ -1,16 +1,20 @@
 import React from "react";
 import { Grid, GridCell } from "@rmwc/grid";
 import MaterialIcon from "material-icons-react";
+import "./header.css";
 
-const Header = () => {
+const Header = props => {
   return (
-    <div>
+    <div className="header">
       <Grid>
         <GridCell span={1}>
           <MaterialIcon icon="arrow_back" />
         </GridCell>
-        <GridCell span={1}>2</GridCell>
-        <GridCell span={1}>3</GridCell>
+        <GridCell span={2}>{props.title}</GridCell>
+        <GridCell span={2}>
+          <MaterialIcon icon={props.actionIcon} color="#00CB63" />
+          {props.actionText}
+        </GridCell>
       </Grid>
     </div>
   );

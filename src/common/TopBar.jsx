@@ -1,5 +1,6 @@
 import React from "react";
 import { TopAppBar, TopAppBarRow } from "@rmwc/top-app-bar";
+import "./topbar.css";
 
 const TopBar = () => {
   return (

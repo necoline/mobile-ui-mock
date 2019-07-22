@@ -1,0 +1,4 @@
+.mdc-top-app-bar {
+  z-index: -2 !important;
+  min-height: 100px;
+}
