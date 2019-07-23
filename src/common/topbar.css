@@ -2,3 +2,8 @@
   z-index: -2 !important;
   min-height: 100px;
 }
+
+.header-action {
+  display: inline-flex;
+  vertical-align: middle;
+}

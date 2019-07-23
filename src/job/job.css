@@ -1,4 +1,31 @@
-.header-logo {
+h1 {
+  font-weight: lighter;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job__container {
+  padding: 100px 20px;
+}
+
+.job__logo-wrapper {
   display: flex;
   justify-content: center;
+}
+
+.job__info-wrapper {
+  margin: 20px 0;
+}
+
+.job__line-icon {
+  line-height: 20px;
+  margin-right: 4px;
+  float: left;
+}
+
+.material-icons.md-24.md-dark {
+  line-height: 18px;
 }

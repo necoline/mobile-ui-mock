@@ -1,12 +1,33 @@
+:root {
+  --primary-color: #00cb63;
+  --secondary-color: #ffeb3b;
+  --primary-background: white;
+  --primary-text: black;
+  --secondary-text: white;
+  --highlight-text: #00cb63;
+  --primary-font: "Arial";
+}
+
+h3 {
+  font-weight: 100;
+}
+
 .App {
-  font-family: sans-serif;
-  text-align: center;
+  font-family: var(--primary-font);
 }
 
 body {
   margin: 0;
 }
 
-.page-body {
+.page {
   padding-top: 40px;
+}
+
+.button__back {
+  color: pink;
+}
+
+.text-highlight {
+  color: var(--highlight-text);
 }

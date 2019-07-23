@@ -1,6 +1,17 @@
 .header {
-  background-color: white;
+  background-color: var(--primary-background);
   z-index: 2;
   border-radius: 16px 16px 0 0;
   margin-top: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.header__action {
+  color: var(--primary-color);
+}
+
+/* Overrides icon height to be center with grid row */
+.material-icons.md-36.md-dark {
+  line-height: 24px;
 }
